@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.executor;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -42,7 +42,7 @@ public class MyExecutor {
 	public static void http() {
 		try {
 			//TODO: 准备uri
-			URI uri = new URI("http://localhost:7000/demo/getUserWithNoThing.json");
+			URI uri = new URI("http://localhost:7000/demo/getUserInfoAnnotationWithoutReturn.json");
 
 			//TODO: new一个HTTP工厂
 			SimpleClientHttpRequestFactory schr = new SimpleClientHttpRequestFactory();
